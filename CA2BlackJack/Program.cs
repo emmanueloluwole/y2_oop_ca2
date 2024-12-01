@@ -134,9 +134,11 @@ namespace CA2BlackJack
                     //statement to compare the totalPlayerCardValue and Totaldealercardvalue 
                     if (totalPlayerCardValue > totalDealerCardValue)
                     {
+                        //display
                         Console.WriteLine("Player wins");
                     }
                     else if (totalDealerCardValue > totalPlayerCardValue)
+                        ////display
                         Console.WriteLine("Dealer wins");
                 }
 
